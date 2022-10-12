@@ -1,0 +1,49 @@
+.item {
+    padding-bottom: 20px;
+}
+
+.item-name {
+    font-weight: bolder;
+    color: black;
+}
+
+body {
+    background-image: url('yellow-shopping.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.cart-title > h1 {
+    color: black;
+    font-weight: bolder;
+}
+
+.item-price {
+    font-weight: bolder;
+}
+
+.remove {
+    background-color: red;
+    font-weight: bolder;
+    color: black;
+    border-radius: 20px;
+}
+
+input, #fork {
+    border-radius: 20px;
+}
+
+.total-price-label {
+    color: black;
+}
+
+#total-price {
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 992px) {
+    .item-subtotal {
+        padding-left: 40px;
+    }
+}
